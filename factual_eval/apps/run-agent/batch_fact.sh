@@ -1,0 +1,1 @@
+ nohup python batch_test.py --json_dir ../../../data/method_results/gemini_2.5_pro > fact_gemini_2.5_pro.log 2>&1 &

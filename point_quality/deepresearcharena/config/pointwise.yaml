@@ -1,0 +1,97 @@
+# Pointwise Evaluation Configuration
+# Configuration file for Deep Research Arena Pointwise Evaluator
+
+# Data Configuration
+data_dir: "../data"
+
+# Query Selection Configuration
+query_selection:
+  max_queries: 100                      # Maximum number of queries to evaluate (null for all queries)
+  query_ids: null                        # Specific query IDs to evaluate (null for sequential selection)
+  selection_method: "first"              # Selection method: "first", "random", "specified"
+  random_seed: 42                        # Random seed for reproducible random selection
+
+# Model Configuration
+evaluator_model:
+  name: "google/gemini-2.5-pro"                    # LLM model for evaluation (evaluator model)
+  api_type: "openrouter"                    # API type: "openai" or "openrouter"
+  max_tokens: 8192                      # Maximum tokens for LLM responses
+  temperature: 0.1                      # Temperature for LLM generation
+
+# Target Models to Evaluate
+target_models:
+  - "gemini_2.5_pro"
+
+# Evaluation Configuration
+evaluation:
+  # Parallel processing settings
+  max_workers: 20                       # Maximum number of parallel workers
+  
+  # Cache settings
+  cache_dir: "outputs/cache"            # Directory for cache files
+  use_cache: true                       # Whether to use caching
+  
+  
+  # Dimension generation settings
+  dimension_generation:
+    max_additional_dimensions: 3        # Maximum number of query-specific dimensions to generate
+    include_factuality: false           # Whether to include factuality-related dimensions (handled separately)
+  
+  # Weight generation settings
+  weight_generation:
+    normalize_weights: true             # Whether to normalize weights to sum to 1.0
+    default_equal_weights: true         # Use equal weights if generation fails
+  
+  # Criteria generation settings
+  criteria_generation:
+    normalize_criteria_weights: true    # Whether to normalize criteria weights within each dimension
+    min_criteria_per_dimension: 1       # Minimum number of criteria per dimension
+    max_criteria_per_dimension: 10      # Maximum number of criteria per dimension
+  
+  # Scoring settings
+  scoring:
+    score_range: [0, 10]               # Score range for each criterion
+    decimal_places: 2                   # Number of decimal places for scores
+    require_analysis: true              # Whether to require analysis/justification for each score
+
+# Output Configuration
+output:
+  results_file: "outputs/pointwise_evaluation_results.json"  # Main results file
+  detailed_logging: true                                      # Whether to enable detailed logging
+  print_results: true                                         # Whether to print results to console
+  
+  # Summary statistics
+  include_summary: true                 # Whether to include summary statistics
+  calculate_averages: true              # Whether to calculate dimension averages
+  
+  # Result format
+  save_raw_scores: true                 # Whether to save raw scores
+  save_final_scores: true               # Whether to save final hierarchical scores
+  save_report_text: false               # Whether to save full report text (can be large)
+
+# Retry and Error Handling
+error_handling:
+  max_llm_retries: 3                    # Maximum number of retries for LLM calls
+  retry_backoff: 2                      # Exponential backoff factor for retries
+  continue_on_error: true               # Whether to continue evaluation if individual queries fail
+  fallback_to_defaults: true            # Whether to use default values if generation fails
+
+# Logging Configuration
+logging:
+  level: "INFO"                         # Logging level: DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "outputs/pointwise_evaluation.log"  # Log file path
+  console: true                         # Whether to log to console
+
+# Performance Configuration
+performance:
+  batch_size: 5                         # Number of queries to process in each batch
+  memory_limit_mb: 4096                 # Memory limit in MB (for large datasets)
+  timeout_seconds: 300                  # Timeout for individual LLM calls
+
+# Validation Configuration
+validation:
+  validate_json_responses: true         # Whether to validate JSON responses from LLM
+  strict_dimension_matching: true       # Whether to require strict matching of dimension names
+  check_weight_sum: true                # Whether to check that weights sum to 1.0
+  score_range_validation: true          # Whether to validate scores are in expected range
