@@ -25,7 +25,7 @@
 ## 📊 Model Performance Ranking
 
 <p align="center">
-  <img src="assets/figures/model_ranking.png" width="800">
+  <img src="model_ranking.png" width="800">
 </p>
 
 <p align="center">
