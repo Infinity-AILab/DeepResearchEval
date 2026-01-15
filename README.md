@@ -4,7 +4,7 @@
   </h1>
   <p>
     &nbsp;&nbsp;🌐 <a href="https://github.com/Infinity-AILab/DeepResearchEval/">Website</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    📑 <a href="https://arxiv.org/pdf/2601.09688">Paper</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    📑 <a href="https://arxiv.org/abs/2601.09688">Paper</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     🤗 <a href="https://huggingface.co/datasets/Infinity-AILab/DeepResearchEval">Dataset</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     🐥 <a href="https://docs.google.com/document/d/1tWxvyePIYO-yGIrcPUdyHgCieWv322EGtVyLROZgY2M/edit?tab=t.0">Submission</a>&nbsp;&nbsp;
   </p>
