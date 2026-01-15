@@ -22,6 +22,18 @@
 - For task construction, we propose a **persona-driven pipeline generating realistic, complex research tasks** anchored in diverse user profiles, applying a two-stage filter Task Qualification and Search Necessity to retain only tasks requiring multi-source evidence integration and external retrieval.
 - For evaluation, we propose an agentic pipeline with two components: an **Adaptive Point-wise Quality Evaluation** that dynamically derives task-specific evaluation dimensions, criteria, and weights conditioned on each generated task, and an **Active Fact-Checking** that autonomously extracts and verifies report statements via web search, even when citations are missing. 
 
+## 📊 Model Performance Ranking
+
+<p align="center">
+  <img src="assets/figures/model_ranking.png" width="800">
+</p>
+
+<p align="center">
+  <em>
+  Overview of deep research systems' performance on our benchmark. The left panel reports quality evaluation results across deep research systems, with Gemini-2.5-Pro achieving the highest score (8.51/10). The right panel reports factual correctness, where Manus achieves the highest ratio of correct statements (82.3%).
+  </em>
+</p>
+
 ## 📝 Task Generation
 
 For installation,
