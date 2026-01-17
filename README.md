@@ -3,7 +3,7 @@
     DeepResearch Eval: An Automated Framework for Deep Research Task Construction and Agentic Evaluation
   </h1>
   <p>
-    &nbsp;&nbsp;🌐 <a href="https://github.com/Infinity-AILab/DeepResearchEval/">Website</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    &nbsp;&nbsp;🌐 <a href="https://infinity-ailab.github.io/deep_research_eval/">Website</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     📑 <a href="https://arxiv.org/abs/2601.09688">Paper</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     🤗 <a href="https://huggingface.co/datasets/Infinity-AILab/DeepResearchEval">Dataset</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     🐥 <a href="https://docs.google.com/document/d/1tWxvyePIYO-yGIrcPUdyHgCieWv322EGtVyLROZgY2M/edit?tab=t.0">Submission</a>&nbsp;&nbsp;
@@ -14,7 +14,8 @@
 
 
 ## 📰 News 
-- **2025-01-15**: 🔥 We release the [DeepResearch Eval]() and the [paper]().
+- **2025-01-17**: 🔥 We release DeepResearchEval [website](https://infinity-ailab.github.io/deep_research_eval/).
+- **2025-01-15**: 🔥 We release the [DeepResearchEval]() and the [paper](https://arxiv.org/abs/2601.09688).
 
 
 ## 👋 Overview
