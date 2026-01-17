@@ -15,7 +15,7 @@
 
 ## 📰 News 
 - **2025-01-17**: 🔥 We release DeepResearchEval [website](https://infinity-ailab.github.io/deep_research_eval/).
-- **2025-01-15**: 🔥 We release the [DeepResearchEval]() and the [paper](https://arxiv.org/abs/2601.09688).
+- **2025-01-15**: 🔥 We release the DeepResearchEval and the [paper](https://arxiv.org/abs/2601.09688).
 
 
 ## 👋 Overview
