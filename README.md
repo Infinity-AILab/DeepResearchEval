@@ -155,13 +155,10 @@ We thank the [MiroFlow](https://github.com/MiroMindAI/MiroFlow) and [DAComp](htt
 ## ✍️ Citation
 If you find our work helpful, please cite as
 ```
-@misc{wang2026deepresearchevalautomatedframeworkdeep,
-      title={DeepResearchEval: An Automated Framework for Deep Research Task Construction and Agentic Evaluation}, 
-      author={Yibo Wang and Lei Wang and Yue Deng and Keming Wu and Yao Xiao and Huanjin Yao and Liwei Kang and Hai Ye and Yongcheng Jing and Lidong Bing},
-      year={2026},
-      eprint={2601.09688},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2601.09688}, 
+@article{wang2026deepresearcheval,
+  title={DeepResearchEval: An Automated Framework for Deep Research Task Construction and Agentic Evaluation},
+  author={Wang, Yibo and Wang, Lei and Deng, Yue and Wu, Keming and Xiao, Yao and Yao, Huanjin and Kang, Liwei and Ye, Hai and Jing, Yongcheng and Bing, Lidong},
+  journal={arXiv preprint arXiv:2601.09688},
+  year={2026}
 }
 ```
