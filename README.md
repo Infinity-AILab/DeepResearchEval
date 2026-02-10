@@ -14,9 +14,9 @@
 
 
 ## 📰 News 
-- **2025-02-11**: 🔥 We release the latest DeepResearchEval [deep research tasks (v2)](https://github.com/Infinity-AILab/DeepResearchEval/blob/main/data/input_queries/query_2601_en.jsonl) and conduct evaluations on MiroThinker Normal & Pro, Gemini-3 DR, OpenAI DR, Qwen DR, Doubao DR, and DeepSeek DR. MiroThinker Normal & Pro achieve the best factual accuracy and the second-best quality scores. All results are updated on our [website](https://infinity-ailab.github.io/deep_research_eval/).
-- **2025-01-17**: 🔥 We release DeepResearchEval [website](https://infinity-ailab.github.io/deep_research_eval/).
-- **2025-01-15**: 🔥 We release the DeepResearchEval and the [paper](https://arxiv.org/abs/2601.09688).
+- **2026-02-11**: 🔥 We release the latest DeepResearchEval [deep research tasks (v2)](https://github.com/Infinity-AILab/DeepResearchEval/blob/main/data/input_queries/query_2601_en.jsonl) and conduct evaluations on MiroThinker Normal & Pro, Gemini-3 DR, OpenAI DR, Qwen DR, Doubao DR, and DeepSeek DR. MiroThinker Normal & Pro achieve the best factual accuracy and the second-best quality scores. All results are updated on our [website](https://infinity-ailab.github.io/deep_research_eval/).
+- **2026-01-17**: 🔥 We release DeepResearchEval [website](https://infinity-ailab.github.io/deep_research_eval/).
+- **2026-01-15**: 🔥 We release the DeepResearchEval and the [paper](https://arxiv.org/abs/2601.09688).
 
 
 ## 👋 Overview
